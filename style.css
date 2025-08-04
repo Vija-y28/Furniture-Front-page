@@ -319,4 +319,38 @@
         margin-top: 1.5rem;
     }
 }
+ @media (min-width: 768px) {
+            .main-nav {
+                display: flex;
+            }
+            .mobile-menu-button {
+                display: none;
+            }
+            .hero-section .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .about-section .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            section {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+        }
+        @media (min-width: 1024px) {
+            .container {
+                 padding-left: 2rem;
+                 padding-right: 2rem;
+            }
+            .product-grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+             .hero-text h1 {
+                font-size: 3rem;
+            }
+        }
+
 
